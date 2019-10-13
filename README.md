@@ -1,2 +1,7 @@
-# frappe-das
-Working framework of PT Digital Asia Solusindo using Frappe Framework
+## DAS
+
+Digital Asia Solusindo
+
+#### License
+
+MIT

@@ -1,0 +1,17 @@
+{
+	"js/editor.min.js": [
+		"public/js/frappe/form/controls/text_editor.js"
+	],
+	"css/summernote.min.css": [
+		"public/js/lib/summernote/summernote.css"
+	],
+	"js/summernote.min.js": [
+		"public/js/lib/summernote/summernote.js"
+	],
+	"js/comment_desk.min.js": [
+		"public/js/frappe/ui/comment.js"
+	],
+	"js/timeline.min.js": [
+		"public/js/frappe/form/footer/timeline.js"
+	]
+}
