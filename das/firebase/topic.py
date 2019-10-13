@@ -17,4 +17,8 @@ def get_topic(user):
 	if (len(user_doc.social_logins) > 0):
 			frappe_userid = user_doc.social_logins[0].userid
 
-	return success_format({"topic" : frappe_userid})
+	return success_format({
+			"topic" : frappe_userid,
+			"ios" : str(frappe_userid) + "_ios",
+			"android" : str(frappe_userid) + "_android"
+		})
